@@ -12,7 +12,7 @@ const App = ({ name }) => {
   return (
     <section className='section'>
       <div className='container'>
-        <Heading name={name} />
+        <Heading />
         {!showResults && <Form setTotals={setTotals} />}
         {showResults && <Results results={results} />}
       </div>
